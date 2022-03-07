@@ -15,4 +15,8 @@ class PageController extends Controller
         echo 'Nama: Raditya Catur Narendra<br>';
         echo 'NIM: 2041720198';
     }
+
+    public function articles($id) {
+        echo "Halaman artikel dengan ID: $id";
+    }
 }
