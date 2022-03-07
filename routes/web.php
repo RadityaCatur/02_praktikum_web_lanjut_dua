@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\PageController@index');
+Route::get('/', 'App\Http\Controllers\IndexController@index');
 
-Route::get('/about', 'App\Http\Controllers\PageController@about');
+Route::get('/about', 'App\Http\Controllers\AboutController@about');
 
-Route::get('/articles/{id}', 'App\Http\Controllers\PageController@articles');
+Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@articles');
